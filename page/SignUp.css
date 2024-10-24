@@ -1,0 +1,113 @@
+@import url(https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic);
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #defdf2;
+    overflow-x: hidden;
+}
+
+.navbar {
+  top: 0;
+  padding: 15px;
+  display: flex ;
+  justify-content: center;
+  width: 100%;
+  background-color: #1E8560;
+}
+
+.navbar h2{
+    text-align: center;
+    border: 2px transparent;
+    padding: 20px;
+    background-color: #79E9C1;
+    border-radius: 150px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.logo {
+    width: 167px;
+    fill: #e50914;
+    position: absolute;
+    top: 20px;
+    left: 50px;
+}
+form {
+    color: #ad9e9e;
+    background-color: #1E8560;
+    border-radius: .3rem;
+    width: 450px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 60px;
+    margin-top: 6rem;
+}
+form h1 {
+    margin-bottom: 28px;
+    margin-left: 119px;
+}
+.form-group {
+    width: 100%;
+    height: 50px;
+    margin-bottom: 16px;
+    position: relative;
+}
+.form-group input {
+    width: 100%;
+    height: 100%;
+    background-color: #defdf2;
+    border: none;
+    border-radius: .3rem;
+    outline: none;
+    color: #000000;
+    padding: 16px 20px 0;
+    font-size: 1rem;
+}
+.form-group label {
+    position: absolute;
+    top: 50%;
+    left: 20px;
+    transform: translateY(-50%);
+    color: #8c8c8c;
+    pointer-events: none;
+    transition: 200ms ease-in-out transform,
+                200ms ease-in-out font-size;
+}
+.form-group input:focus ~ label,
+.form-group input:valid ~ label {
+    transform: translateY(-1.25rem);
+    font-size: .7rem;
+}
+
+form button {
+    width: 100%;
+    height: 48px;
+    font-size: 1rem;
+    background-color: #090909;
+    color: #fff;
+    font-weight: 600;
+    border: none;
+    border-radius: .3rem;
+    cursor: pointer;
+    margin: 24px 0 12px;
+}
+
+.signup {
+    margin-top: 16px;
+}
+.signup p {
+    color: #ffffff;
+}
+.signup p a {
+    color: #000000;
+    text-decoration: none;
+}
+.signup p a:hover {
+    text-decoration: underline;
+}
+
